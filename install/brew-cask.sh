@@ -7,21 +7,15 @@ brew tap caskroom/versions
 # Install packages
 
 apps=(
-  alfred
+  atom
   dash
   dropbox
   firefox
-  firefox-nightly
   flux
-  glimmerblocker
   google-chrome
-  google-chrome-canary
   google-drive
-  hammerspoon
-  kaleidoscope
+  iterm2-beta
   macdown
-  opera
-  screenflow
   slack
   sourcetree
   spotify
@@ -29,7 +23,6 @@ apps=(
   transmit
   virtualbox
   vlc
-  webstorm
 )
 
 brew cask install "${apps[@]}"

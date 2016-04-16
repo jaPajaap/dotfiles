@@ -1,9 +1,3 @@
-brew install nvm
-
-nvm install 5
-nvm use 5
-nvm alias default 5
-
 # Globally install with npm
 
 packages=(
@@ -12,12 +6,7 @@ packages=(
   gulp
   http-server
   nodemon
-  release-it
-  spot
-  svgo
-  tldr
-  underscore-cli
-  vtop
+  bower
 )
 
 npm install -g "${packages[@]}"
