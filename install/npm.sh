@@ -7,6 +7,7 @@ packages=(
   http-server
   nodemon
   bower
+  underscore-cli
 )
 
 npm install -g "${packages[@]}"
